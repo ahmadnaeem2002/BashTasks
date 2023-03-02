@@ -1,7 +1,7 @@
 #!/bin/bash
 #####Script to monitor the load #####
 ##### This script executed every min so please add the next hashed line to crontab and edit PATH with your's
-# */1 * * * * /PATH/MonitoringLoadSystem.sh
+# */1 * * * * bash /YOUR_PATH/MonitoringLoadSystem.sh
 ####################################################
 echo $(uptime | awk '{print $8 $9 $10}' | sed "s/","/ /g" | sed "s/\.//g") > /load.data
 IP=$(hostname -I)

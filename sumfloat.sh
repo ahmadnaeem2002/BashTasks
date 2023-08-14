@@ -1,5 +1,5 @@
 #!/bin/bash
-###Script to sum 2 float numbers
+#####Script to sum 2 float numbers
 #exit error list:
 ##      exit:
 ##      0: Succes
